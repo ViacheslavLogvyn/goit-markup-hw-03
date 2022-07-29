@@ -6,7 +6,7 @@
 :root {
   --accent-color: #2196f3;
   --main-text-color: #212121;
-  --main-font-family: 'Roboto', 'noto', sans-serif;
+  --main-font-family: "Roboto", "noto", sans-serif;
   --header-horizontal-gap: 50px;
   --body-horizontal-gap: 30px;
 }
@@ -127,7 +127,7 @@ img {
 .logo-web {
   color: var(--accent-color);
 
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -137,7 +137,7 @@ img {
 
 .logo-studio,
 .logo-studio-footer {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -233,7 +233,7 @@ img {
   border: 1px solid transparent;
 }
 
-/* ---------------------ПРИНЦИПИ РОБОТЫ--------------------- */
+/* ---------------------ПРИНЦИПИ РОБОТИ--------------------- */
 
 .principles {
   background-color: #fff;
@@ -241,10 +241,11 @@ img {
 
 .principles-list {
   display: flex;
+  gap: 30px;
 }
 
 .principles-list-content {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
 }
 
 .principles-title {
@@ -284,10 +285,11 @@ img {
 
 .work-examples-cards {
   display: flex;
+  gap: 30px;
 }
 
 .work-examples-item {
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 60px) / 3);
 }
 /* .work-examples-item:not(:last-child) {
   margin-right: var(--body-horizontal-gap);
@@ -300,15 +302,15 @@ img {
 
 .team-list {
   display: flex;
-  /* gap: 30px; */
+  gap: 30px;
 }
 
-.team-list-item:not(:last-child) {
+/* .team-list-item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .team-list-item {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
 
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -411,8 +413,8 @@ img {
   gap: 30px;
 }
 .gallery-item {
-  width: 370px;
-  /* width: calc((100%-60px) / 3); */
+  /* width: 370px; */
+  width: calc((100% - 60px) / 3);
   /* margin-bottom: 30px; */
 }
 
