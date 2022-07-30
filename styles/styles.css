@@ -110,11 +110,11 @@ img {
 .header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .header-content {
-  padding-top: 24px;
-  padding-bottom: 25px;
   display: flex;
   align-items: center;
 }
@@ -153,7 +153,10 @@ img {
 /* ------------------------НАВІГАЦІЯ ХЕДЕР------------------------ */
 .site-nav-list {
   display: flex;
+  align-items: center;
+}
 
+.site-nav-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -170,17 +173,16 @@ img {
 .contacts-header-list {
   display: flex;
   margin-left: auto;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
 }
 
 .contacts-item {
   padding-top: 15px;
   padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .contacts-header-list .item + .item {
@@ -190,17 +192,21 @@ img {
 /* ------------------------ГЕРОЙ------------------------ */
 .hero {
   background-color: #2f303a;
-  padding: 0;
+  padding-top: 200px;
+  padding-right: auto;
+  padding-bottom: 200px;
+  padding-left: auto;
 }
 
 .hero-content {
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
 }
 
 .hero-text {
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 696px;
 
   color: #ffffff;
 
@@ -213,6 +219,9 @@ img {
 }
 
 .hero-btn {
+  /* margin-left: 700px;
+  margin-right: 700px; */
+
   min-height: 50px;
   min-width: 200px;
 
@@ -391,6 +400,7 @@ img {
   min-width: 130px;
 }
 
+.filter-btn:hover,
 .filter-btn:focus {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
